@@ -1,0 +1,179 @@
+
+.resum {
+	display: flex;
+	margin: 10px auto;
+	width: 800px;
+	height: auto;
+	background-color: white(168, 168, 168);
+	border: 1px solid #425458;
+}
+
+.data1 {
+	display: inline-block;
+	margin: 0 5px auto 15px;
+	width: 480px;
+	height: 1150px;
+	background-color: rgb(255, 255, 255);
+	color: #5c6164;
+}
+
+.h-box, .data2 {
+	border-top: 3px solid #79979d;
+	border-right: 3px solid #79979d;
+}
+
+.h-box {
+	margin-top: 0 auto;
+	width: auto;
+	height: 150px;
+	background-color: #425458;
+	color: white;
+
+}
+
+.name {
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-left: 100px;
+	font-size: 32px;
+	font-style: Arial, sans-serif;
+	/* text-transform: uppercase; */
+	/* text-align: center; */
+}
+
+.job-name {
+	/* font-size: 18px; */
+	padding-left: 100px;
+}
+
+.title-d {
+	margin-left: 5px;
+}
+
+.post-d1 {
+	margin-left: 10px;
+	padding-left: 10px;
+	/* line-height: 10px; */
+	border-left: 3px solid #425458;
+}
+
+.list-job {
+	padding-left: 23px;
+}
+
+.item-job {
+	margin-top: 25px;
+}
+
+.title-job {
+	font-size: 18px;
+	font-weight: 550;
+	list-style-type: square;
+	margin: 15px auto 5px auto;
+	color:  #647073;
+}
+
+.comment-job {
+	padding-bottom: 10px;
+}
+
+.link-job {
+	display: flex;
+	width: auto;
+	height: 20px;
+	color: #556b70;
+	/* font-weight: 600; */
+	text-transform: uppercase;
+}
+
+.link-job:hover {
+	color: white;
+	background-color: #848b90;
+}
+
+.link-job:focus {
+	color: white;
+	background-color: #5c6164;
+}
+
+.data2 {
+	display: inline-block;
+	/* margin: auto; */
+	width: 300px;
+	height: 1150px;
+	background-color: #425458;
+}
+
+.foto {
+	display: flex;
+	margin: 35px auto;
+	width: 220px;
+	height: 220px;
+	background-color: white;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+    background-position: center -30px;
+	/* background-size: cover; */
+	background-size: 250px;
+	background-image: url(../foto/foto.jpg);
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: rgb(85, 130, 255);
+}
+
+.item {
+	display: inline-block;
+	margin-left: 0px;
+	padding-left: 0;
+	margin-bottom: 5px;
+	color: white;
+	height: auto;
+}
+
+.item-title {
+	width: 260px;
+	height: 30px;
+	border-bottom: 3px solid white;
+}
+
+.telegram::before, .map-marker::before {
+	content: "";
+	padding-right: 20px;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../svg/icons8-телеграмма-app.svg);
+}
+
+.map-marker {
+	margin-bottom: 0;
+}
+
+.map-marker::before {
+	background-image: url(../foto/icons8-маркер-места-24.png);
+}
+
+.inst {
+	margin-top: 10px;
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+}
+
+.item-st {
+	margin-bottom: 15px;
+}
+
+h4, h3 {
+	margin: 0;
+	padding: 0px;
+}
+
+ 
+
